@@ -74,6 +74,13 @@ h1{
 	color:#700;
 }
 
+.chinese{
+	width:auto;
+	height:1.1em;
+	position:relative;
+	top:6px;
+}
+
 #menu{
 	position:fixed;
 	right:10px;
@@ -309,6 +316,22 @@ h1{
 #teamv span:hover{
 	background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5));
 	color:rgba(0,0,0,1);
+}
+
+#partners{
+	background-image: url('res/v.jpg');
+}
+#partners div{
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+}
+#partners span{
+	text-align:center;
+	padding-bottom:100px;
+	padding-top:100px;
+	color:white;
+}
+#partners a{
+	color: white;
 }
 
 #contact{
