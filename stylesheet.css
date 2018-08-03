@@ -112,6 +112,7 @@ h1{
 	transform:translate(0,-50%);
 	width:auto;
 	height:auto;
+	max-width:15%;
 }
 
 #homecontents{
@@ -380,6 +381,10 @@ h1{
 	margin-bottom: 60px;
 	font-size: 1.4em;
 }
+#demo a{
+	color:white;
+}
+/*
 #demo form{
 	margin-left:10%;
 	margin-right:10%;
@@ -431,4 +436,4 @@ h1{
 }
 #demothanks p{
 	font-size:2em;
-}
+}*/
