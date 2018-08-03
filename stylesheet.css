@@ -342,6 +342,12 @@ h1{
 	padding-bottom:200px;
 	font-size:1.4em;
 }
+
+#contact span{
+	text-align:center;
+	color:white;
+}
+
 #contact a{
 	color:white;
 }
