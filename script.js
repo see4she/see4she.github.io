@@ -38,7 +38,16 @@ window.onload = function(){
 	window.addEventListener('resize', onScroll, false);
 	
 	//hide all interview videos except for one
-	interviews = document.getElementById('interviewvids').children;
-	displayInterview(0);
+	//interviews = document.getElementById('interviewvids').children;
+	//displayInterview(0);
 	
+}
+
+var picsDisp = 0;
+function picsSlide(displacement, numImages){
+	var slider = document.getElementById('pics-slide-inner');
+	picsDisp += displacement;
+	if(picsDisp > 0) picsDisp = 0;
+	if(picsDisp <= -numImages) picsDisp = -numImages + 1;
+	slider.style.left = (picsDisp * 1400) + "px";//mult by width in px
 }
