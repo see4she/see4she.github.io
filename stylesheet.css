@@ -98,6 +98,7 @@ h1{
 }
 #menu a:hover{
 	color:gray;
+	text-shadow: 0 0 10px black, 0 0 20px orange, 0 0 30px black;
 }
 
 #backtotop{
@@ -105,6 +106,11 @@ h1{
 	right:24px;
 	bottom:24px;
 	z-index:10;
+	transform: rotateZ(0deg);
+	transition: all 0.2s;
+}
+#backtotop:hover{
+	transform: rotateZ(360deg);
 }
 
 #home{
@@ -194,7 +200,7 @@ h1{
 	left:0;/*Will change via js*/
 	transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
 }
-#pics-slide span{
+#pics-slide-inner span{
 	float:left;
 	height:100%;
 	width:auto;
@@ -206,7 +212,15 @@ h1{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
     padding: 2%;
     width: 96%;
-    bottom: 0;
+    bottom: -2%;
+	color: #aaa;
+	font-size: 1em;
+	transition: all 0.5s cubic-bezier(.81,-0.98,.18,1.95);
+}
+#pics-slide:hover span div{
+	bottom: 0;
+	color: white;
+	font-size: 1.2em;
 }
 
 #pics-left img{
@@ -219,7 +233,7 @@ h1{
 	cursor:pointer;
 }
 #pics-left img:hover{
-	width:100px;
+	width:140px;
 }
 #pics-right img{
 	width: 128px;
@@ -231,7 +245,7 @@ h1{
 	cursor:pointer;
 }
 #pics-right img:hover{
-	width:100px;
+	width:140px;
 }
 
 #prototype{
