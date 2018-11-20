@@ -7,9 +7,9 @@ layout: post
 ## Sexual Harassment: Changing the perception
 
 
-Women experience a myriad of emotions when sexually harassed - pain, anger, vulnerability, confusion, helplessness, violation, depression to name a few. These are powerful expressions that society often overlooks and we are building a medium to give them shape and fight sexual harassment.
+Women experience a myriad of emotions when sexually harassed - pain, anger, vulnerability, confusion, helplessness, violation, depression to name a few. These are powerful expressions that the society often overlooks so we are building a medium to give them shape and fight sexual harassment.
 
-Bridging the gap between an act of violation and the underlying emotions, we are creating a systemic behavioural change towards sexual harassment through empathy.
+By bridging the gap between an act of violation and the underlying emotions, we are creating a systemic behavioural change towards sexual harassment through empathy.
 
 Combining VR technology, 360-degree video, CGI animation and motion capture to create experiences where players step into the body of women as they go through sexual harassment.
 
