@@ -1,123 +1,74 @@
 ---
-layout: default
+
+layout: post
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+## Sexual Harassment: Changing the perception
 
 
-### Definition lists can be used with HTML syntax.
+Women experience a myriad of emotions when sexually harassed - pain, anger, vulnerability, confusion, helplessness, violation, depression to name a few. These are powerful expressions that society often overlooks and we are building a medium to give them shape and fight sexual harassment.
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+Bridging the gap between an act of violation and the underlying emotions, we are creating a systemic behavioural change towards sexual harassment through empathy.
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+Combining VR technology, 360-degree video, CGI animation and motion capture to create experiences where players step into the body of women as they go through sexual harassment.
 
-```
-The final element.
-```
+<img class="onethirdimage" src="images/vive.png"/><img class="onethirdimage" src="images/gear.png"/><img class="onethirdimage" src="images/leap.png"/>
+
+---
+
+### Our origins
+
+Team V started out as a group of five international students from China, Canada, India, Turkey
+and Scotland who met at the CRI Labs 2018 summer school in Paris. We developed BehindHerEyes as
+a Virtual Reality experience to promote gender equality in collaboration with CRI and BeAnotherLab;
+in BehindHerEyes, users accompany a young woman as she goes through an evening of her life and
+are given options to react to different events as she witnesses sexual harassment in the street,
+then experiences it herself in a bar. The project was presented at the end of the summer school
+in Les Grands Voisins in Paris. [More info about the Paris project on this page](bhe/index.html).
+
+---
+
+### See for She in China
+
+See for She is a Virtual Reality experience specifically designed for a Chinese audience to tackle
+gender equality issues in the workplace. The project will be presented at the November 2018 Gender
+& CSR conference in Chengdu supported by UN Women.
+
+---
+
+### Pictures
+
+<figure class="half">
+	<img src="images/parallax.jpg">
+	<img src="images/group.jpg">
+</figure>
+
+---
+
+### What people say
+
+#### Philippe Bertrand
+Instigator of BeAnotherLab
+> Behind Her Eyes explores the potential use of immersive videos in VR to help society to overcome the culture of gender violence. Beta-tests in Paris have shown an interesting emotional impact in males, what may be significant to expand individual's consciousness and change negative social behaviors. The prototype points out to a promising continuation of this research on how to use different perceptive illusions in VR to enhance men's empathic abilities regarding sexual harassment.
+
+#### Daniel Assayag
+Actor of BehindHerEyes
+> This experience make you feel the inacceptable presence of one that steps upon your intimate space. Virtual universe, offer the possibility for the viewer to live that moment without the terrible consequences. This VR interactive show is a direct uppercut, that wires your brain to the understanding of what women are put through everyday in our over-sexualised societies.
+
+#### Jessica Talley Sagot
+Center for research and Interdisciplinary | M2 AIV/EdTech
+> A VR experience that captures a universal yet personal journey on the provocative subject of violence against women. I found myself asking questions I hadn't considered, which balanced discussion of what makes a singular experience so devastatingly uncomfortable for women.
+
+---
+
+#### -Team V-
+
+With support from:
+
+[<img src="images/cri.png">](https://cri-paris.org/)
+[<img src="images/tsinghua.png">](http://www.tsinghua.edu.cn/)
+[<img src="images/unwomen.png">](http://www.unwomen.org/)
+
+
+

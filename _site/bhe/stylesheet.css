@@ -1,0 +1,543 @@
+
+body, html {
+	height: 100%;
+}
+
+h1{
+	font-variant:small-caps;
+	margin-top:0;
+	font-size:4em;
+}
+
+.absolute{
+	position:absolute;
+}
+
+.bottomleft{
+	left:0;
+	bottom:0;
+}
+
+.topright{
+	right:0;
+	top:0;
+}
+
+.parallax {
+	background-image: url('res/parallax.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+	.parallax {
+		background-attachment: scroll;
+	}
+}
+
+.body{
+	font-family:'Yanone Kaffeesatz', 'Arial';
+	margin: 0;
+	font-size: 1.4em;
+}
+
+.slide{
+	width:100%;
+	margin: 0;
+	position: relative;
+}
+
+.white{
+	color:white;
+	margin:15px;
+	font-size:1.7em;
+}
+
+.button{
+	padding: 15px;
+	box-shadow: 0px 0px 0px 10px #DEE, inset 0px 0px 10px 10px #DEE;
+	text-decoration: none;
+	color: #000;
+	transition: all 0.2s;
+	background-color: white;
+	border-radius: 20px;
+	position: relative;
+	display: inline-block;
+	margin: 20px;
+	font-size:1.4em;
+}
+.button:hover, .button:active{
+	box-shadow:0px 0px 0px #FFF;
+	background-color:#DDD;
+	color:#700;
+}
+
+.chinese{
+	width:auto !important;
+	height:1.1em;
+	position:relative;
+	top:6px;
+}
+
+#menu{
+	position:fixed;
+	right:10px;
+	top:10px;
+	font-variant:small-caps;
+	font-size:3em;
+	z-index:10;
+}
+#menu a{
+	color:white;
+	text-decoration:none;
+	margin-right: 20px;
+	transition: all 0.1s;
+	text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black;
+}
+#menu a:hover{
+	color:gray;
+	text-shadow: 0 0 10px black, 0 0 20px orange, 0 0 30px black;
+}
+
+#backtotop{
+	position:fixed;
+	right:24px;
+	bottom:24px;
+	z-index:10;
+	transform: rotateZ(0deg);
+	transition: all 0.2s;
+}
+#backtotop:hover{
+	transform: rotateZ(360deg);
+}
+
+#home{
+	background:#221;
+	padding-bottom:100px;
+}
+
+#headimg{
+	position:absolute;
+	right:10%;
+	top:50%;
+	transform:translate(0,-50%);
+	width:auto;
+	height:auto;
+	max-width:15%;
+}
+
+#homecontents{
+	position:relative;
+	left:10%;
+	width:60%;
+	text-align:center;
+}
+
+#title{
+	animation-name:titleanim;
+	animation-duration:6s;
+	color:rgb(255,128,0);
+	font-size:9em;
+	padding-top:120px;
+	margin-top:0;
+	margin-bottom:30px;
+}
+@keyframes titleanim{
+	0%{
+		color:#001;
+		color:rgba(0,0,0,0);
+	}
+	50%{
+		color:white;
+	}
+	100%{
+		color:rgb(255,128,0);
+	}
+}
+
+#about{
+	color:white;
+}
+#about div{
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+	padding: 5em;
+	font-size:1.2em;
+}
+#about span{
+	text-align:center;
+	margin-left:50%;
+	display:block;
+	transform:translate(-50%,0);
+	width:70%;
+}
+#about img{
+	border-radius:50%;
+	margin-left:70px;
+	margin-right:70px;
+	margin-top:30px;
+}
+
+#pictures{
+	text-align: center;
+	color: white;
+	background: #221;
+	padding:10%;
+	width:80%;
+}
+
+#pics-slide{
+	width: 1400px;
+	height: 800px;
+	overflow: hidden;
+	margin-left: 50%;
+	transform: translate(-50%,0);
+}
+#pics-slide-inner{
+	width:99999px;
+	position:relative;
+	left:0;/*Will change via js*/
+	transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+#pics-slide-inner span{
+	float:left;
+	height:100%;
+	width:auto;
+	display:inline-block;
+	position:relative;
+}
+#pics-slide-inner div{
+	position: absolute;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    padding: 2%;
+    width: 96%;
+    bottom: -2%;
+	color: #aaa;
+	font-size: 1em;
+	transition: all 0.5s cubic-bezier(.81,-0.98,.18,1.95);
+}
+#pics-slide:hover span div{
+	bottom: 0;
+	color: white;
+	font-size: 1.2em;
+}
+
+#pics-left img{
+	width: 128px;
+    height: auto;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+	transition: all 0.1s;
+	cursor:pointer;
+}
+#pics-left img:hover{
+	width:140px;
+}
+#pics-right img{
+	width: 128px;
+    height: auto;
+    position: absolute;
+    right: 2%;
+    top: 50%;
+	transition: all 0.1s;
+	cursor:pointer;
+}
+#pics-right img:hover{
+	width:140px;
+}
+
+#prototype{
+	margin-bottom:-10px;
+	background:#221;
+	color:white;
+}
+#prototype img{
+	width:100%;
+}
+#prototype div{
+	position:absolute;
+	font-size:1.8em;
+}
+
+#prototype1{
+	top:32%;
+	left:10%;
+	width: 30%;
+}
+
+#prototype2{
+	top:60%;
+	left:65%;
+	text-align:right;
+	width:30%;
+}
+
+#video{
+	margin-bottom:-5px;
+}
+#video video{
+	width:100%;
+	height:auto;
+}
+#video a{
+	visibility:hidden;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%, -50%);
+}
+
+#support{
+	background:#221;
+	text-align:center;
+	color:white;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+#support div{
+	width:80%;
+	margin-left:10%;
+}
+#support h1{
+	font-size:5em;
+	margin-bottom:100px;
+}
+#support h2{
+	margin-bottom:0;
+}
+#support h3{
+	margin:0;
+	font-size:1.4em;
+	font-weight:100;
+}
+#support p{
+	margin-top:1.4px;
+	margin-bottom:100px;
+}
+
+#interview{
+	
+}
+#interview a{
+	position: absolute;
+	display: block;
+	top: 50%;
+	transform: translate(0,-50%);
+	padding: 10px;
+	transition: all 0.1s;
+	cursor:pointer;
+}
+#interview a:hover{
+}
+
+#previous{
+	left:10px;
+}
+
+#next{
+	right:10px;
+}
+
+#interviewvids{
+	left:50%;
+	transform:translate(-50%,0);
+	position:relative;
+	display:inline-block;
+	width:75%;
+	padding-top:70px;
+	padding-bottom:70px;
+}
+#interviewvids video{
+	display:none;
+	width:100%;
+}
+
+#teamv{
+	color:white;
+	text-align:center;
+	padding-bottom:100px;
+	padding-top:100px;
+	background-image: url('res/v.jpg');
+}
+#teamv div{
+	display:inline-block;
+	margin-left:10%;
+	margin-right:10%;
+	width:13%;
+	position:relative;
+}
+#teamv img{
+	width:100%;
+}
+#teamv h1{
+	text-shadow:0 0 50px orange;
+}
+#teamv span{
+	position:absolute;
+	top:0;
+	bottom:5px;
+	left:0;
+	right:0;
+	margin:0;
+	overflow-wrap:break-word;
+	text-align:left;
+	padding:10px;
+	background:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0));
+	color:rgba(0,0,0,0);
+	transition: all 0.1s;
+}
+#teamv span:hover{
+	background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5));
+	color:rgba(0,0,0,1);
+}
+
+#partners{
+	background-image: url('res/v.jpg');
+}
+#partners div{
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+	padding-bottom:130px;
+	padding-top:130px;
+}
+#partners span{
+	text-align:center;
+	color:white;
+}
+#partners a{
+	color: white;
+}
+
+#contact{
+	background:#221;
+	color:white;
+	text-align:center;
+	padding-top:200px;
+	padding-bottom:200px;
+	font-size:1.4em;
+}
+
+#contact span{
+	text-align:center;
+	color:white;
+}
+
+#contact a{
+	color:white;
+}
+
+#criimg{
+	position:absolute;
+	left:15px;
+	bottom:15px;
+}
+
+#teamvimg{
+	position:absolute;
+	right:15px;
+	bottom:15px;
+}
+
+#thanks{
+	text-align:center;
+	color:white;
+	background-image: url('res/group.jpg');
+}
+#thanks div{
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) );
+	padding: 5em;
+	font-size:1.2em;
+}
+#thanks h1{
+	margin-bottom:30px;
+}
+#thanks h2{
+	margin-bottom:0;
+	margin-top:20px;
+}
+#thanks p{
+	margin:0;
+}
+
+#demo{
+	color:white;
+	text-align:center;
+	background-image:url('res/demo.png');
+}
+#demo div{
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) );
+	padding: 5em;
+	font-size:1.2em;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+#demo h1{
+	margin:0;
+	color:rgb(255,128,0);
+}
+#demo h2{
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+#demo p{
+	margin-top: 0;
+	margin-bottom: 60px;
+	font-size: 1.4em;
+}
+#demo a{
+	color:white;
+}
+/*
+#demo form{
+	margin-left:10%;
+	margin-right:10%;
+	background:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) );
+	border-radius:20px;
+	padding:40px;
+	text-align:left;
+}
+#demo form p{
+	font-size:0.6em;
+	margin-bottom:20px;
+}
+#demo input[type=text]{
+	width:100%;
+	margin-bottom:40px;
+	margin-top:10px;
+	padding:20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+	font-size:0.7em;
+}
+#demo input[type=submit]{
+	cursor:pointer;
+    background-color: rgb(255,128,0);
+    color: white;
+    padding: 14px 20px;
+    border: none;
+	font-family: Yanone Kaffeesatz;
+	border-radius: 5px;
+	margin-left: 30%;
+	margin-top: 30px;
+	width: 40%;
+	font-size: 1.5em;
+}
+#demo input[type=submit]:hover {
+    background-color: orange;
+}
+
+#demothanks{
+	height:100%;
+	color:white;
+	text-align:center;
+	text-shadow:0 0 10px black;
+}
+#demothanks h1{
+	padding-top:20%;
+}
+#demothanks p{
+	font-size:2em;
+}*/
