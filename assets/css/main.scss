@@ -12,11 +12,37 @@ sitemap: false
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
 
+/* Making imgs inline */
 img{
 	display: inline-block;
 }
 
+/* Image that takes up a third of a column */
 .onethirdimage{
 	width: 13%;
-	margin: 4% 9%;
+	margin: 0 9%;
 }
+
+/* making left image centered */
+#posts.inner-post-page .block-left{
+	background-position: center !important;
+}
+
+/* Horizontal rules with bigger margins */
+hr{
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+/* Images at the bottom */
+.support{
+	margin: 10px;
+	max-width: 6.4em;
+	max-height: 3em;
+	filter: contrast(20%) saturate(0);
+	transition: all 0.2s ease-in-out;
+}
+.support:hover{
+	filter: contrast(100%) saturate(100%);
+}
+

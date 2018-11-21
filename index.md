@@ -4,7 +4,7 @@ layout: post
 ---
 
 
-## Sexual Harassment: Changing the perception
+## Sexual Harassment &gt;&gt;&gt; Changing the perception
 
 
 Women experience a myriad of emotions when sexually harassed - pain, anger, vulnerability, confusion, helplessness, violation, depression to name a few. These are powerful expressions that the society often overlooks so we are building a medium to give them shape and fight sexual harassment.
@@ -66,9 +66,10 @@ Center for research and Interdisciplinary | M2 AIV/EdTech
 
 With support from:
 
-[<img src="images/cri.png">](https://cri-paris.org/)
-[<img src="images/tsinghua.png">](http://www.tsinghua.edu.cn/)
-[<img src="images/unwomen.png">](http://www.unwomen.org/)
+[<img class="support" src="images/cri.png">](https://cri-paris.org/)
+[<img class="support" src="images/tsinghua.png">](http://www.tsinghua.edu.cn/)
+[<img class="support" src="images/unwomen.png">](http://www.unwomen.org/)
+[<img class="support" src="images/beanotherlab.png">](http://beanotherlab.org/)
 
 
 
