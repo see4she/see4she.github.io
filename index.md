@@ -67,9 +67,10 @@ Center for research and Interdisciplinary | M2 AIV/EdTech
 With support from:
 
 [<img class="support" src="images/cri.png">](https://cri-paris.org/)
-[<img class="support" src="images/tsinghua.png">](http://www.tsinghua.edu.cn/)
-[<img class="support" src="images/unwomen.png">](http://www.unwomen.org/)
 [<img class="support" src="images/beanotherlab.png">](http://beanotherlab.org/)
+[<img class="support" src="images/tsinghua.png">](http://www.tsinghua.edu.cn/)
+[<img class="support" src="images/openfiesta.png">](http://www.fiesta.tsinghua.edu.cn/)
+[<img class="support" src="images/unwomen.png">](http://www.unwomen.org/)
 
 
 
