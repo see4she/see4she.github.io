@@ -46,7 +46,7 @@ creating an entirely new and innovative experience.
 	<img src="images/group.jpg">
 </figure>
 <figure class="half">
-	<img src="images/chengdu-testers.jpb">
+	<img src="images/chengdu-testers.jpg">
 </figure>
 
 ---
