@@ -44,8 +44,6 @@ creating an entirely new and innovative experience.
 <figure class="half">
 	<img src="images/parallax.jpg">
 	<img src="images/group.jpg">
-</figure>
-<figure class="half">
 	<img src="images/chengdu-testers.jpg">
 </figure>
 
