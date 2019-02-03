@@ -32,8 +32,10 @@ in Les Grands Voisins in Paris. [More info about the Paris project on this page]
 ### See for She in China
 
 See for She is a Virtual Reality experience specifically designed for a Chinese audience to tackle
-gender equality issues in the workplace. The project will be presented at the November 2018 Gender
-& CSR conference in Chengdu supported by UN Women.
+gender equality issues in the workplace. The project was first presented at the November 2018 Gender
+& CSR conference in Chengdu supported by UN Women, and received positive feedback from both the chinese
+and international audience. Based on this feedback, we are now able to move forward and focus on
+creating an entirely new and innovative experience.
 
 ---
 
@@ -42,6 +44,9 @@ gender equality issues in the workplace. The project will be presented at the No
 <figure class="half">
 	<img src="images/parallax.jpg">
 	<img src="images/group.jpg">
+</figure>
+<figure class="half">
+	<img src="images/chengdu-testers.jpb">
 </figure>
 
 ---
