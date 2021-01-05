@@ -52,15 +52,15 @@ creating an entirely new and innovative experience.
 ### What people say
 
 #### Philippe Bertrand
-Instigator of BeAnotherLab
+BeAnotherLab Mentor
 > Behind Her Eyes explores the potential use of immersive videos in VR to help society to overcome the culture of gender violence. Beta-tests in Paris have shown an interesting emotional impact in males, what may be significant to expand individual's consciousness and change negative social behaviors. The prototype points out to a promising continuation of this research on how to use different perceptive illusions in VR to enhance men's empathic abilities regarding sexual harassment.
 
 #### Daniel Assayag
-Actor of BehindHerEyes
+Actor in BehindHerEyes | CRI Mentor
 > This experience make you feel the inacceptable presence of one that steps upon your intimate space. Virtual universe, offer the possibility for the viewer to live that moment without the terrible consequences. This VR interactive show is a direct uppercut, that wires your brain to the understanding of what women are put through everyday in our over-sexualised societies.
 
 #### Jessica Talley Sagot
-Center for research and Interdisciplinary | M2 AIV/EdTech
+CRI Mentor | M2 AIV/EdTech
 > A VR experience that captures a universal yet personal journey on the provocative subject of violence against women. I found myself asking questions I hadn't considered, which balanced discussion of what makes a singular experience so devastatingly uncomfortable for women.
 
 ---
